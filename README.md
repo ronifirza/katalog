@@ -39,20 +39,6 @@ Database dirancang agar efisien dan memiliki integritas data yang kuat antar ent
 
 ---
 
-## 🖼️ Dokumentasi Antarmuka (Preview)
-
-### 🔐 Autentikasi Modern
-Desain Login & Register yang fokus pada kesederhanaan agar user tidak bingung.
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/46c90775-83fc-4eea-b515-cb0cff771b66" width="800" />
-</p>
-
-### 📱 Katalog Utama (Grid View)
-Tampilan produk dengan efek *hover zoom* dan penataan yang responsif.
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/b62862f5-fb75-4c1d-8489-cd891b2a085d" width="400" />
-  <img src="https://github.com/user-attachments/assets/6501d916-915a-4f2d-8826-f1b74ce2477d" width="400" />
-</p>
 
 ---
 
