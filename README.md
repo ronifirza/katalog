@@ -1,59 +1,85 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Camera%20with%20Flash.png" alt="Camera" width="40" /> Galeri Foto Produk - UKK 2026
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+<p align="left">
+  <img width="1344" height="620" alt="Screenshot 2026-03-10 101935" src="https://github.com/user-attachments/assets/3df37f9e-fe0b-4b87-8319-d4d49e86c847" />
+<img width="1345" height="626" alt="Screenshot 2026-03-10 101947" src="https://github.com/user-attachments/assets/5ef16dcf-5f0b-4e8b-a5fc-7b88dcf89bc3" />
+<img width="1062" height="574" alt="Screenshot 2026-03-10 102008" src="https://github.com/user-attachments/assets/f8720ad4-ece6-458e-91dd-19afb77ab70b" />
+<img width="973" height="541" alt="Screenshot 2026-03-10 102023" src="https://github.com/user-attachments/assets/f5283210-8898-404d-b3f1-614b59033c34" />
+
 </p>
 
-## About Laravel
+> **Platform Katalog Digital Minimalis** yang dirancang untuk kecepatan dan kemudahan manajemen aset visual. Dikembangkan oleh **Roni** untuk Uji Kompetensi Keahlian (UKK) SMKN 11 Malang.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+---
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 🚀 Fitur Utama
+Aplikasi ini menerapkan arsitektur **MVC (Model-View-Controller)** dengan fitur:
+- [x] **Secure Auth**: Sistem Login & Register dengan enkripsi password Bcrypt.
+- [x] **Role Management**: Pembedaan hak akses antara Admin (Full Control) dan User (Viewer/Commenter).
+- [x] **Image Handling**: Unggah foto otomatis ke sistem Storage Laravel.
+- [x] **Social Interaction**: Fitur diskusi/komentar real-time pada setiap produk.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+## 🏛️ Arsitektur Database
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+### Relasi Tabel (ERD)
+Database dirancang agar efisien dan memiliki integritas data yang kuat antar entitas.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0ca55280-6aed-45f2-a99c-a64be3b8081a" width="600" style="border-radius: 8px; border: 1px solid #ddd;" />
+</p>
 
-## Laravel Sponsors
+### 📊 Struktur Data
+| Nama Tabel | Deskripsi |
+| :--- | :--- |
+| `users` | Menyimpan data user (nama, email, password, role). |
+| `photos` | Menyimpan metadata foto produk dan jalur file (path). |
+| `comments` | Menyimpan interaksi diskusi antar pengguna. |
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+---
 
-### Premium Partners
+## 🖼️ Dokumentasi Antarmuka (Preview)
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+### 🔐 Autentikasi Modern
+Desain Login & Register yang fokus pada kesederhanaan agar user tidak bingung.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/46c90775-83fc-4eea-b515-cb0cff771b66" width="800" />
+</p>
 
-## Contributing
+### 📱 Katalog Utama (Grid View)
+Tampilan produk dengan efek *hover zoom* dan penataan yang responsif.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b62862f5-fb75-4c1d-8489-cd891b2a085d" width="400" />
+  <img src="https://github.com/user-attachments/assets/6501d916-915a-4f2d-8826-f1b74ce2477d" width="400" />
+</p>
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+---
 
-## Code of Conduct
+## ⚙️ Panduan Instalasi Lokal
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Ikuti langkah-langkah di bawah ini untuk menjalankan aplikasi di laptop kamu:
 
-## Security Vulnerabilities
+```bash
+# 1. Clone Repositori
+git clone [https://github.com/roni-dev/galeri-foto.git](https://github.com/roni-dev/galeri-foto.git)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+# 2. Masuk ke Folder Proyek
+cd galeri-foto
 
-## License
+# 3. Install Dependency
+composer install
+npm install
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+# 4. Setup Environment
+cp .env.example .env
+php artisan key:generate
+
+# 5. Link Storage (PENTING AGAR GAMBAR MUNCUL)
+php artisan storage:link
+
+# 6. Jalankan Migrasi & Seeder
+php artisan migrate --seed
+
+# 7. Jalankan Server
+php artisan serve
